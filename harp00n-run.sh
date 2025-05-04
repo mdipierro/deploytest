@@ -1,1 +1,1 @@
-uv run python -m http.server 8000 -b 127.0.0.1 -d static
+uv run -with py4web python -m py4web run apps

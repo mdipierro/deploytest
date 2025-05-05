@@ -1,1 +1,2 @@
-uv run --with flask flask --app hello run --port 8000 --host 127.0.0.1
+podman build -t my-image
+podman run -p 8000:8000 --network=pasta my-image
